@@ -15,8 +15,9 @@ export const DISHES = [
     price: 149,
     rating: 4.7,
     category: 'Italian',
-    image: '/src/assets/dishes/pizza.jpg'
+    image: new URL('../assets/dishes/pizza.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-003',
     name: 'Wild Mushroom Pappardelle',
@@ -24,8 +25,9 @@ export const DISHES = [
     price: 139,
     rating: 4.6,
     category: 'Italian',
-    image: '/src/assets/dishes/pasta.jpg'
+    image: new URL('../assets/dishes/pasta.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-004',
     name: 'Aged Cheddar Burger',
@@ -33,8 +35,9 @@ export const DISHES = [
     price: 159,
     rating: 4.7,
     category: 'Burgers',
-    image: '/src/assets/dishes/burger.jpg'
+    image: new URL('../assets/dishes/burger.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-005',
     name: 'Truffle Fries with Gold Dust',
@@ -42,8 +45,9 @@ export const DISHES = [
     price: 69,
     rating: 4.5,
     category: 'Sides',
-    image: '/src/assets/dishes/fries.jpg'
+    image: new URL('../assets/dishes/fries.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-006',
     name: 'Smoked BBQ Chicken Wings',
@@ -51,8 +55,9 @@ export const DISHES = [
     price: 109,
     rating: 4.6,
     category: 'Starters',
-    image: '/src/assets/dishes/wings.jpg'
+    image: new URL('../assets/dishes/wings.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-007',
     name: 'Citrus Salmon Tartare',
@@ -60,8 +65,9 @@ export const DISHES = [
     price: 179,
     rating: 4.7,
     category: 'Seafood',
-    image: '/src/assets/dishes/tartare.jpg'
+    image: new URL('../assets/dishes/tartare.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-008',
     name: 'Pan-Seared Sea Bass',
@@ -69,8 +75,9 @@ export const DISHES = [
     price: 229,
     rating: 4.8,
     category: 'Seafood',
-    image: '/src/assets/dishes/sea-bass.jpg'
+    image: new URL('../assets/dishes/sea-bass.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-009',
     name: 'Sultan’s Lamb Kofta',
@@ -78,8 +85,9 @@ export const DISHES = [
     price: 199,
     rating: 4.6,
     category: 'Middle Eastern',
-    image: '/src/assets/dishes/kofta.jpg'
+    image: new URL('../assets/dishes/kofta.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-010',
     name: 'Rose Harissa Chicken',
@@ -87,8 +95,9 @@ export const DISHES = [
     price: 189,
     rating: 4.5,
     category: 'Middle Eastern',
-    image: '/src/assets/dishes/harissa.jpg'
+    image: new URL('../assets/dishes/harissa.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-011',
     name: 'Korean Gochujang Short Ribs',
@@ -96,8 +105,9 @@ export const DISHES = [
     price: 259,
     rating: 4.8,
     category: 'Asian',
-    image: '/src/assets/dishes/ribs.jpg'
+    image: new URL('../assets/dishes/ribs.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-012',
     name: 'Lemongrass Coconut Curry',
@@ -105,8 +115,9 @@ export const DISHES = [
     price: 159,
     rating: 4.6,
     category: 'Asian',
-    image: '/src/assets/dishes/curry.jpg'
+    image: new URL('../assets/dishes/curry.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-013',
     name: 'Spiced Shrimp Tempura',
@@ -114,8 +125,9 @@ export const DISHES = [
     price: 179,
     rating: 4.5,
     category: 'Seafood',
-    image: '/src/assets/dishes/tempura.jpg'
+    image: new URL('../assets/dishes/tempura.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-014',
     name: 'Basil Tomato Bruschetta',
@@ -123,8 +135,9 @@ export const DISHES = [
     price: 89,
     rating: 4.4,
     category: 'Starters',
-    image: '/src/assets/dishes/bruschetta.jpg'
+    image: new URL('../assets/dishes/bruschetta.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-015',
     name: 'Classic Margherita',
@@ -132,8 +145,9 @@ export const DISHES = [
     price: 139,
     rating: 4.6,
     category: 'Italian',
-    image: '/src/assets/dishes/margherita.jpg'
+    image: new URL('../assets/dishes/margherita.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-016',
     name: 'Garden Caesar Salad',
@@ -141,8 +155,9 @@ export const DISHES = [
     price: 99,
     rating: 4.5,
     category: 'Salads',
-    image: '/src/assets/dishes/caesar.jpg'
+    image: new URL('../assets/dishes/caesar.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-017',
     name: 'Golden Caesar Chicken',
@@ -150,8 +165,9 @@ export const DISHES = [
     price: 139,
     rating: 4.7,
     category: 'Salads',
-    image: '/src/assets/dishes/caesar-chicken.jpg'
+    image: new URL('../assets/dishes/caesar-chicken.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-019',
     name: 'Gold Coast Steak',
@@ -159,8 +175,9 @@ export const DISHES = [
     price: 319,
     rating: 4.9,
     category: 'Signature',
-    image: '/src/assets/dishes/steak.jpg'
+    image: new URL('../assets/dishes/steak.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-020',
     name: 'Pistachio Baklava Slice',
@@ -168,8 +185,9 @@ export const DISHES = [
     price: 79,
     rating: 4.6,
     category: 'Desserts',
-    image: '/src/assets/dishes/baklava.jpg'
+    image: new URL('../assets/dishes/baklava.jpg', import.meta.url).href
   },
+
 
   // Remaining items (21-40)
   {
@@ -179,8 +197,9 @@ export const DISHES = [
     price: 199,
     rating: 4.6,
     category: 'Seafood',
-    image: '/src/assets/dishes/cod.jpg'
+    image: new URL('../assets/dishes/cod.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-022',
     name: 'Truffle Mushroom Bowl',
@@ -188,8 +207,9 @@ export const DISHES = [
     price: 149,
     rating: 4.5,
     category: 'Vegetarian',
-    image: '/src/assets/dishes/mushroom-bowl.jpg'
+    image: new URL('../assets/dishes/mushroom-bowl.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-023',
     name: 'Spicy Tuna Crunch Roll',
@@ -197,8 +217,9 @@ export const DISHES = [
     price: 169,
     rating: 4.6,
     category: 'Asian',
-    image: '/src/assets/dishes/sushi.jpg'
+    image: new URL('../assets/dishes/sushi.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-025',
     name: 'Harissa Shrimp Skewers',
@@ -206,8 +227,9 @@ export const DISHES = [
     price: 189,
     rating: 4.5,
     category: 'Seafood',
-    image: '/src/assets/dishes/shrimp.jpg'
+    image: new URL('../assets/dishes/shrimp.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-026',
     name: 'Velvet Chocolate Torte',
@@ -215,8 +237,9 @@ export const DISHES = [
     price: 109,
     rating: 4.8,
     category: 'Desserts',
-    image: '/src/assets/dishes/torte.jpg'
+    image: new URL('../assets/dishes/torte.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-027',
     name: 'Vanilla Bean Cheesecake',
@@ -224,8 +247,9 @@ export const DISHES = [
     price: 99,
     rating: 4.6,
     category: 'Desserts',
-    image: '/src/assets/dishes/cheesecake.jpg'
+    image: new URL('../assets/dishes/cheesecake.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-028',
     name: 'Smoky Eggplant Dip',
@@ -233,8 +257,9 @@ export const DISHES = [
     price: 79,
     rating: 4.4,
     category: 'Starters',
-    image: '/src/assets/dishes/eggplant.jpg'
+    image: new URL('../assets/dishes/eggplant.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-029',
     name: 'Garlic Butter Lobster',
@@ -242,8 +267,9 @@ export const DISHES = [
     price: 399,
     rating: 4.9,
     category: 'Seafood',
-    image: '/src/assets/dishes/lobster.jpg'
+    image: new URL('../assets/dishes/lobster.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-030',
     name: 'Golden Polenta Fries',
@@ -251,8 +277,9 @@ export const DISHES = [
     price: 89,
     rating: 4.5,
     category: 'Sides',
-    image: '/src/assets/dishes/polenta.jpg'
+    image: new URL('../assets/dishes/polenta.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-031',
     name: 'Roasted Veggie Mezze Platter',
@@ -260,8 +287,9 @@ export const DISHES = [
     price: 129,
     rating: 4.6,
     category: 'Middle Eastern',
-    image: '/src/assets/dishes/mezze.jpg'
+    image: new URL('../assets/dishes/mezze.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-032',
     name: 'Peri Peri Chicken Plate',
@@ -269,8 +297,9 @@ export const DISHES = [
     price: 179,
     rating: 4.5,
     category: 'Signature',
-    image: '/src/assets/dishes/peri.jpg'
+    image: new URL('../assets/dishes/peri.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-033',
     name: 'Classic New York Cheeseburger',
@@ -278,8 +307,9 @@ export const DISHES = [
     price: 189,
     rating: 4.7,
     category: 'Burgers',
-    image: '/src/assets/dishes/nyburger.jpg'
+    image: new URL('../assets/dishes/nyburger.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-034',
     name: 'Spicy Chicken Quesadilla',
@@ -287,8 +317,9 @@ export const DISHES = [
     price: 129,
     rating: 4.4,
     category: 'Starters',
-    image: '/src/assets/dishes/quesadilla.jpg'
+    image: new URL('../assets/dishes/quesadilla.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-035',
     name: 'Crisp Greek Salad Bowl',
@@ -296,8 +327,9 @@ export const DISHES = [
     price: 109,
     rating: 4.5,
     category: 'Salads',
-    image: '/src/assets/dishes/greek.jpg'
+    image: new URL('../assets/dishes/greek.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-036',
     name: 'Lemon Garlic Chicken Skillet',
@@ -305,8 +337,9 @@ export const DISHES = [
     price: 199,
     rating: 4.6,
     category: 'Signature',
-    image: '/src/assets/dishes/chicken.jpg'
+    image: new URL('../assets/dishes/chicken.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-037',
     name: 'Sicilian Lemon Sorbet',
@@ -314,8 +347,9 @@ export const DISHES = [
     price: 69,
     rating: 4.3,
     category: 'Desserts',
-    image: '/src/assets/dishes/sorbet.jpg'
+    image: new URL('../assets/dishes/sorbet.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-038',
     name: 'Mediterranean Stuffed Peppers',
@@ -323,8 +357,9 @@ export const DISHES = [
     price: 159,
     rating: 4.6,
     category: 'Vegetarian',
-    image: '/src/assets/dishes/peppers.jpg'
+    image: new URL('../assets/dishes/peppers.jpg', import.meta.url).href
   },
+
   {
     id: 'dp-039',
     name: 'Black Pepper Tiramisu',
