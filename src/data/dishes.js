@@ -6,7 +6,7 @@ export const DISHES = [
     price: 129,
     rating: 4.8,
     category: 'Italian',
-    image: '/src/assets/dishes/risotto.jpg'
+    image: new URL('../assets/dishes/risotto.jpg', import.meta.url).href
   },
   {
     id: 'dp-002',

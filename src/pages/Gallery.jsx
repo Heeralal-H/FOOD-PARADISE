@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const GALLERY = [
-  { id: 'g1', label: 'Chef plating', image: '/src/assets/gallery/plating.jpg' },
-  { id: 'g2', label: 'Gold ambience', image: '/src/assets/gallery/ambience.jpg' },
-  { id: 'g3', label: 'Signature dessert', image: '/src/assets/gallery/dessert.jpg' },
-  { id: 'g4', label: 'Saffron risotto', image: '/src/assets/gallery/risotto.jpg' },
-  { id: 'g5', label: 'Restaurant seating', image: '/src/assets/gallery/seating.jpg' },
-  { id: 'g6', label: 'Seasonal ingredients', image: '/src/assets/gallery/ingredients.jpg' }
+  { id: 'g1', label: 'Chef plating', image: new URL('../assets/gallery/plating.jpg', import.meta.url).href },
+  { id: 'g2', label: 'Gold ambience', image: new URL('../assets/gallery/ambience.jpg', import.meta.url).href },
+  { id: 'g3', label: 'Signature dessert', image: new URL('../assets/gallery/dessert.jpg', import.meta.url).href },
+  { id: 'g4', label: 'Saffron risotto', image: new URL('../assets/gallery/risotto.jpg', import.meta.url).href },
+  { id: 'g5', label: 'Restaurant seating', image: new URL('../assets/gallery/seating.jpg', import.meta.url).href },
+  { id: 'g6', label: 'Seasonal ingredients', image: new URL('../assets/gallery/ingredients.jpg', import.meta.url).href },
 ];
 
 export default function Gallery() {
